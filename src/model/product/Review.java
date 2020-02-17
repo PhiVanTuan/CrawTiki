@@ -8,6 +8,7 @@ public class Review {
     private String productId;
     private String content;
     private int rate;
+    private String url;
 
     public String getProductId() {
         return productId;
@@ -31,5 +32,13 @@ public class Review {
 
     public void setRate(int rate) {
         this.rate = rate;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 }

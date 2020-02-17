@@ -31,7 +31,6 @@ public class DatumCategory {
     @SerializedName("list_price")
     @Expose
     private Integer listPrice;
-
     @SerializedName("discount")
     @Expose
     private Integer discount;
@@ -155,8 +154,6 @@ public class DatumCategory {
     }
 
 
-
-
     public Integer getDiscount() {
         return discount;
     }
@@ -260,9 +257,6 @@ public class DatumCategory {
     public void setIsGiftCard(Boolean isGiftCard) {
         this.isGiftCard = isGiftCard;
     }
-
-
-
 
 
     public String getUrlAttendantInputForm() {
